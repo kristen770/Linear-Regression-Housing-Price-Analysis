@@ -1,6 +1,6 @@
 # Phase 2 Final Project: King County Housing Data Anaylsis and Regression 
 <p align="center">
-  <img width="850" height="250" src="/Movie2.jpg">
+  <img width="850" height="250" src="/Photos/image0%20(1).jpeg">
 </p>
  
- [](/Movie.jpg)
+ [](/Photos/image0%20(1).jpeg)
