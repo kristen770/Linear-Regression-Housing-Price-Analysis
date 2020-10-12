@@ -53,15 +53,31 @@ This trend is even more highlighted when you look at when the houses that have b
  [](/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(3).jpg) 
  
 # Linear Regressions 
-For my final model I initially filered my data to be houses that would be of primary interest to my stakeholders (cutting off houses above 1M for example). I think transformed some of the non normally distributed data and looked to build three distinctive models to compare. 
+For my final model I initially filered my data to be houses that would be of primary interest to my stakeholders (cutting off houses above 1M for example). I think transformed some of the non normally distributed data and looked to build three distinctive models to compare.  
   <p align="center">
   <img width="550" height="250" src="/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(4).jpg">
 </p>
  
  [](/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(4).jpg)   
  
-The final model I settled on used view, grade, lot square footage, and waterfront visibility to predict prices. While the warnings still indicated potential multicolinearity the VIF scores were all under 2. 
+The final model I settled on used view, grade, lot square footage, and waterfront visibility to predict prices. The R2 was 0.386 and, while the warnings still indicated potential multicolinearity the VIF scores were all under 2: 
 
+   <p align="center">
+  <img width="550" height="250" src="/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(6).jpg">
+</p>
+ 
+ [](/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(6).jpg) 
+ 
+ The model was also fairly normal:  
+  
+   <p align="center">
+  <img width="550" height="250" src="/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(7).jpg">
+</p>
+ 
+ [](/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(7).jpg) 
+ 
+ Finally for my stakeholders I used a graph to look at how sqftage and grade correlated to price and found that these were strongly predictive. 
+ 
    <p align="center">
   <img width="550" height="250" src="/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(5).jpg">
 </p>
