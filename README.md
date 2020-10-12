@@ -17,9 +17,56 @@ In an effort to increase access to quality affordable housing, keep people roote
 Given the defined buisness problem I wanted to focus my EDA and define a narrow window exploration that would lead to strong data insights and analysis. 
 
 ## Question 1: What is the distribution of housing grade in the data? 
-The majoritiy of houses in this data set are in the "average" grade range (7/8) there is a larger distribution of houses on the high end of the grading scale (9-13) than on the lower end (0-6). houses with a grade of 3 or 13 could be identified as outliers.
+The majoritiy of houses in this data set are in the "average" grade range (7/8) there is a larger distribution of houses on the high end of the grading scale (9-13) than on the lower end (0-6). houses with a grade of 3 or 13 could be identified as outliers.    
+<p align="center">
+  <img width="550" height="250" src="/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis.jpg">
+</p>
+ 
+ [](/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis.jpg)
 
+## Question 2: What is the distribution of condition in the data? 
+The majority of the houses in this data set are "good" condition (3/5) which is the average quality of a a home. There is a heavy tail of houses above that and 199 houses below that level. 
+
+Looking at the distribution of these houses by zipcode, zipcode 98168 emerged as the zipcode with the highest percentage of these "poor condtion homes".   
+
+<p align="center">
+  <img width="550" height="250" src="/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(1).jpg">
+</p>
+ 
+ [](/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(1).jpg)
+
+## Question 3: What is the break down of 98168? 
+Notcing this trend in "poor condition" homes in on specific zipcode I wanted to break down the zipcode even further and look for any trends. It emerged that this zipcode has some very low quality inexpensive homes and some very expensive and "fancy" homes. This is particularly interesting for my stakeholders as it looks as though this zipcode is going through some major shifts in the make up of the community.  
+
+<p align="center">
+  <img width="550" height="250" src="/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(2).jpg">
+</p>
+ 
+ [](/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(2).jpg)
+
+## Question 4: When were renovated houses renovated in 98168? 
+This trend is even more highlighted when you look at when the houses that have been sold in this neighborhood were renovated. There has been a %400 increase in the number of houses renvoated since 2000, when you consider that these houses were then sold in 2015 that adds to the idea that these houses are potentially being "flipped" and houses similar to the ones represented in this sale data could be targeted by my stakeholders in order to preserve neighborhood identity.  
+ <p align="center">
+  <img width="550" height="250" src="/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(3).jpg">
+</p>
+ 
+ [](/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(3).jpg) 
+ 
 # Linear Regressions 
+For my final model I initially filered my data to be houses that would be of primary interest to my stakeholders (cutting off houses above 1M for example). I think transformed some of the non normally distributed data and looked to build three distinctive models to compare. 
+  <p align="center">
+  <img width="550" height="250" src="/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(4).jpg">
+</p>
+ 
+ [](/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(4).jpg)   
+ 
+The final model I settled on used view, grade, lot square footage, and waterfront visibility to predict prices. While the warnings still indicated potential multicolinearity the VIF scores were all under 2. 
+
+   <p align="center">
+  <img width="550" height="250" src="/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(5).jpg">
+</p>
+ 
+ [](/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(5).jpg)   
 
 # Conclusions  
 Based on this analysis my stake holders, King County and Habitat for Humanity, should look at houses that are at or below the minimum grade in housing condition and/or grade in zipcodes such as 98168 to buy or select for renovation projects. When renovating or updating houses they should focus on improving the overall house's grade and increasing sq footage where possible to increase the house's price. 
