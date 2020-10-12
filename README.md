@@ -94,5 +94,5 @@ Based on this analysis my stake holders, King County and Habitat for Humanity, s
 4. Geographic Considerations - Map demographic information with folium or use the lat/ lon data points in other meaningful ways. 
 
 
-[Blog Post](https://medium.com/@kristendavis27/starting-a-project-pick-an-angle-7a016c9b65b2) 
-[Project Recording](https://youtu.be/mY8beWKuIHs)
+### [Blog Post](https://medium.com/@kristendavis27/starting-a-project-pick-an-angle-7a016c9b65b2) 
+### [Project Recording](https://youtu.be/mY8beWKuIHs)
