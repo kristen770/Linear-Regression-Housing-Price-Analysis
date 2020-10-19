@@ -84,8 +84,13 @@ The final model I settled on used view, grade, lot square footage, and waterfron
  
  [](/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(5).jpg)     
  
- Finally I decided to remove the y-intercept to see if it would improve my model which it did signifigantly bumping my Rsquared up to 0.898. 
+ Finally I decided to remove the y-intercept to see if it would improve my model which it did signifigantly bumping my Rsquared up to 0.894. 
  
+  <p align="center">
+  <img width="550" height="250" src="/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(8).jpg">
+</p>
+ 
+ [](/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(8).jpg) 
  
 
 # Conclusions  
