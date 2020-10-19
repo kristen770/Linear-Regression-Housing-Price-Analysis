@@ -82,7 +82,11 @@ The final model I settled on used view, grade, lot square footage, and waterfron
   <img width="550" height="250" src="/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(5).jpg">
 </p>
  
- [](/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(5).jpg)   
+ [](/Photos/Phase%202%20Final%20Project%20-%20Kristen%20Davis%20(5).jpg)     
+ 
+ Finally I decided to remove the y-intercept to see if it would improve my model which it did signifigantly bumping my Rsquared up to 0.898. 
+ 
+ 
 
 # Conclusions  
 Based on this analysis my stake holders, King County and Habitat for Humanity, should look at houses that are at or below the minimum grade in housing condition and/or grade in zipcodes such as 98168 to buy or select for renovation projects. When renovating or updating houses they should focus on improving the overall house's grade and increasing sq footage where possible to increase the house's price. 
